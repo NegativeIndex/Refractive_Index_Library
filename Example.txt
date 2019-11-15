@@ -1,0 +1,12 @@
+function function_name(x,y,z,varargin)
+% varargin contains all kinds of [option, value] pairs.
+
+default={'name1',val1,'name2',val2,'name3',val2};
+opt=options(default,varargin);
+
+default should have all the legit option name.
+
+% now opt has all the option information. Option values in 'varargin' will overwrite default value
+% Use 'getoption(opt, name)' to retrieve option value;  'opt = setoption(opt, name, value)' to change option value.
+
+
