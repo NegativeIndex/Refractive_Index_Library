@@ -13,7 +13,7 @@ bRC=strcmp(out,'on');
 
 dname=which('getN_wl');
 [dname,~,~]=fileparts(dname);
-disp(dname);
+% disp(dname);
 
 
 %% get available files
